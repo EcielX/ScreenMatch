@@ -24,5 +24,6 @@ public class PrimeiroProjetoSpringSemWebApplication implements CommandLineRunner
 		ConverteDados converso = new ConverteDados();
 		DadosSerie dados = converso.obterDados(json, DadosSerie.class);
 		System.out.println(dados);
+		System.out.println("Fim");
 	}
 }
